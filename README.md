@@ -1,6 +1,6 @@
 # Median house value in California districts regression
 
-Este repositorio contiene la implementación de 
+Este repositorio contiene la implementación del segundo trabajo práctico para la materia de Introducción a la Inteligencia Artificial (CEIA - FIUBA).
 
 ## Contenidos
 
