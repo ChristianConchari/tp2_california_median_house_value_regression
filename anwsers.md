@@ -19,11 +19,19 @@ En el caso de `AveBedrms` y `AveRooms` se puede entender que a mayor número de 
 
 Tambien se puede mencionar la correlación entre `AveRooms` y `MedInc` con un valor de 0.3269, lo que indica que a mayor ingreso medio en el bloque, mayor número de habitaciones.
 
+También se presenta el mapa de calor de correlación del conjunto de datos, donde se puede apreciar lo mencionado anteriormente.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
 ## 2. Graficar los histogramas de los diferentes atributos y el target.
 
 ### ¿Qué tipo de forma de histograma se observa? ¿Se observa alguna forma de campana que nos indique que los datos pueden provenir de una distribución gaussiana, sin entrar en pruebas de hipótesis?
 
-El histograma de `MedInc` tiene una forma de campana, aunque se puede apreciar una ligera asimetría hacia la derecha. En el caso de `MedHouseVal` se puede apreciar una forma de campana, aunque igualmente se puede apreciar una ligera asimetría hacia la derecha, en este caso, también se puede apreciar una cola larga hacia la derecha más prominente, donde existe un valor que pareciera ser atípico de la distribución.
+En la siguiente imagen se muestran los histogramas de los diferentes atributos y el target.
+
+![Histograms](images/histograms.png)
+
+Como se puede ver, el histograma de `MedInc` tiene una forma de campana, aunque se puede apreciar una ligera asimetría hacia la derecha. En el caso de `MedHouseVal` se puede apreciar una forma de campana, aunque igualmente se puede apreciar una ligera asimetría hacia la derecha, en este caso, también se puede apreciar una cola larga hacia la derecha más prominente, donde existe un valor que pareciera ser atípico de la distribución.
 
 En cuanto a los demás histogramas, estos no aparentan tener una forma de campana, por lo que no se puede asumir que los datos provienen de una distribución gaussiana. Esto debido a que presentan múltiples picos (modas) o una asimetría muy marcada. Tomando como ejemplo a `HouseAge`, se puede apreciar unas considerable dispersión en los datos. Por otro lado, `AveRooms`, `AveBedrms` y `Population` muestran una concentración de datos en un rango muy pequeño.
 
