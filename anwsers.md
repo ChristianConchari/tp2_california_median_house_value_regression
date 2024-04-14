@@ -83,3 +83,5 @@ Se obtuvieron los siguientes resultados para la regresión lineal y la mejor reg
 | Mean Squared Error (MSE)  | 0.5306            | 0.5304           |
 
 Ambos modelos tienen resultados muy similares, sin embargo, el modelo de Ridge tiene un mejor desempeño en cuanto a MSE, aunque la diferencia es mínima. Esto se puede deber a que el modelo de Ridge penaliza los coeficientes de los atributos, lo que puede ayudar a reducir el error cuadrático medio.
+
+En este punto también se puede mencionar que ambos modelos se encuentran alejados de un buen ajuste, ya que el valor de $R^2$ es bajo, lo que indica que el modelo no está capturando el comportamiento del target. En consecuencia, el hecho de que no exista una mejor pese a haber aplicado Ridge, puede deberse a que el comportamiento del target no es lineal y se requiere de un modelo más complejo para capturarlo.
