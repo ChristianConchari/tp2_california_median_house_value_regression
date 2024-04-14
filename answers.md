@@ -47,7 +47,7 @@ En cuanto a los valores de Varianza Total y Varianza Explicada, se obtuvieron lo
 -   Varianza Total: `1.3398`
 -   Varianza Explicada: `0.8163`
 
-Finalmente, para determinar si el modelo está capturando el comportamiento del target, se puede calcular el radio de varianza explicada y varianza total, obteniendo un valor de `0.6093`. Este valor indica que el modelo aún no está capturando el comportamiento del target.
+Finalmente, para determinar si el modelo está capturando el comportamiento del target, se puede calcular el radio de varianza explicada y varianza total, obteniendo un valor de `0.6093`. Este valor indica que el modelo aún no está capturando el comportamiento del target y existe un margen de mejora. Por otro lado, el resultado obtenido también puede mostrar una no linealidad en los datos, en ese sentido, para mejorar el modelo se podría considerar la aplicación de un modelo más complejo que pueda capturar la no linealidad de los datos. Otro camino sería reducir el número de atributos utilizados para entrenar el modelo, eliminando aquellos que contribuyen menos a la explicación del target, y así posiblemente mejorar el ajuste del modelo.
 
 ## 4. Calcular las métricas de MSE, MAE y $R^2$ del set de evaluación.
 
