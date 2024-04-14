@@ -14,7 +14,7 @@ Las respuestas a las preguntas a resolver se encuentran en el archivo [answers.m
 
 ## Preparación
 
-Para usar el notebook `hanoi_search_notebook.ipynb` y la simulación es necesario instalar las siguientes librerías:
+Para usar el notebook `california_housing_notebook.ipynb` y la simulación es necesario instalar las siguientes librerías:
 
 ```bash
 pip install -r requirements.txt
