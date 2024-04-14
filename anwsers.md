@@ -61,6 +61,10 @@ Se calcularon las métricas de MSE, MAE y $R^2$ del set de evaluación, obtenien
 
 Se calculó la regresión de Ridge con una validación cruzada de 5-folds y se obtuvo el mejor valor de $\alpha$ con un valor de `6.5656`. El valor de MSE obtenido fue de `-0.5268`, donde es negativo porque sklearn utiliza `neg_mean_squared_error`.
 
+La gráfica de MSE vs $\alpha$ se muestra a continuación:
+
+![MSE vs Alpha](images/mse_vs_alpha.png)
+
 El modelo de Ridge obtenido tiene los siguientes coeficientes y valor de intersección:
 
 -   Valor de intersección: `2.0692`
